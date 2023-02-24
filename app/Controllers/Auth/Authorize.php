@@ -9,7 +9,7 @@ class Authorize
 
         $user = new DB('myp' , 'root' , '' , 'localhost');
         $name = ':mahdi' ;
-        var_dump($user->run(" select * from users WHERE name = ? ") , ":name = $name");
+        var_dump($user->run("") , ":name = $name");
 
     }
 }
